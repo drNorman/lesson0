@@ -13,6 +13,5 @@ print(2 * 2 + 2 == 2 * (2 + 2))
 s = '123.456'
 n = float(s)
 n *= 10
-n = int(n)
-n = str(n)
-print(n[-1])
+n = int(n)%10
+print(n)
